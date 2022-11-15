@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { createStage } from "../gameHelpers";
+
 //Styled Components
 import { StyledTetrisWrapper, StyledTetris } from "./styles/StyledTetris";
 
@@ -22,6 +24,23 @@ const Tetris = () => {
 
     console.log('re-render');
 
+    const movePlayer = dir => {
+
+    }
+
+    const startGame = () => {
+
+    }
+
+    const drop = () => {
+
+    }
+
+    const dropPlayer = () => {
+
+    }
+
+    
     return (
         <StyledTetrisWrapper>
             <StyledTetris>
